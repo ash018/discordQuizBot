@@ -1,0 +1,123 @@
+#
+# $Id: questions.trivia.en,v 1.20 2002/07/05 19:09:09 chat Exp $
+#
+# ------------------------------------------------------------------------------
+#
+#  Author:  	?
+#  Editor:  	Klinikai_Eset, |casiotone|, Julika
+#  Last edited: $Date: 2002/07/05 19:09:09 $
+#
+#  Comment:     
+#
+# ------------------------------------------------------------------------------
+
+## Demo-Entry:
+#  ----------
+#  Category: History
+#  Question: Chinese philosopher (um 500 v. Chr.) ?
+#  Answer: Konfuzius
+#  Regexp: [ck]onfu(ts|z)ius
+#  Author: anonymous
+#  Level: hard
+#  Comment: demo-entry, ƒ÷‹‰ˆ¸ﬂ ^∞ !"ß$%&/()=? `¥
+#  Score: 5
+#  Tip: Kon......
+#  Tip: ...fuz...
+#  Tip: ......ius
+
+## valid keys:
+#  ----------
+#  Category?                              (should always be on top!)
+#  Question                               (should always stand after Category)
+#  Answer                                 (will be matched if no regexp is provided)
+#  Regexp?                                (use UNIX-style expressions)
+#  Author?                                (the brain behind this question)
+#  Level? [baby|easy|normal|hard|extreme] (difficulty)
+#  Comment?                               (comment line)
+#  Score? [#]                             (credits for answering this question)
+#  Tip*                                   (provide one or more hints)
+#  TipCycle? [#]                          (Specify number of generated tips)
+
+## WARNING:
+#  -------
+#  DO NOT ADD COMMENTS BEYOND THIS LINE, since they might get lost.
+#  you may add as much comments as you want into the part above
+#  <!========================================================!>
+
+Category: aci
+Question: Who is the Chairman of ACI Limited ?.
+Answer: Dr. Anis Ud Dowla
+
+Category: aci
+Question: When is the World Heart Day ?
+Answer: 29 September
+
+Category: aci
+Question: What is the location of ETP of ACI Formulations?
+Answer: Gazipur
+
+Category: aci
+Question: In which business ACI has launched country's first laminated packaging in that line of business?
+Answer: ACI Flour
+
+Category: aci
+Question: In which business ACI is using HPLC and GLC technology?
+Answer: ACI Formulations
+
+Category: aci
+Question: In which year ACI Logistics Limited joined Global G.A.P?
+Answer: 2016
+
+Category: aci
+Question: What are the brand names of ACI Foods?
+Answer: Pure and Fun
+
+Category: aci
+Question: Which business of ACI has received Occupational Health and Safety Management System certification?
+Answer: ACI Salt
+
+Category: aci
+Question: Which business is involved in production of Lami Tube?
+Answer: Premiaflex
+
+Question: In which year ACI Pharmaceuticals achieved ISO 9001 certification?
+Answer: 1995
+Regexp: (1995|nineteen ninty five)
+Author: {ASH}
+
+Question: Where is the soyabean oil factory of ACI Nutrilife?
+Answer: Chattogram
+Regexp: (Chattogram|Chittagong)
+Author: {ASH}
+
+Question: What is the name of IT startup of ACI?
+Answer: Infolytx
+Author: {ASH}
+
+Question: What is the 2nd largest tea company in the world?
+Answer: TATA
+Regexp: (tata|tetley)
+Author: ASH
+
+Question: What is the brand name of ACI fabric care?
+Answer: SMART
+Regexp: (smart|supreme)
+Author: ASH
+
+Question: What is the brand name of ACI surface care?
+Answer: Septex
+Regexp: (septex|shinex|robo)
+Author: ASH
+
+Question: What is the brand name of ACI herbal care?
+Answer: Neem
+Regexp: (neem|Neem)
+Author: ASH
+
+
+
+
+
+
+
+
